@@ -565,11 +565,31 @@ video {
 
 /* width */
 
+.dark ::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
 /* Track */
+
+.dark ::-webkit-scrollbar-track {
+  border-radius: 100vh;
+  background: #374151;
+}
 
 /* Handle */
 
+.dark ::-webkit-scrollbar-thumb {
+  background: #6b7280;
+  border-radius: 100vh;
+  border: 2px solid #374151;
+}
+
 /* Handle on hover */
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #7a8294;
+}
 
 .bg-white {
   --tw-bg-opacity: 1;
@@ -611,6 +631,36 @@ video {
   background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
 }
 
+.dark .dark\:bg-dim-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(37, 51, 65, var(--tw-bg-opacity));
+}
+
+.dark .dark\:bg-dim-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(25, 39, 52, var(--tw-bg-opacity));
+}
+
+.dark .dark\:bg-dim-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(21, 32, 43, var(--tw-bg-opacity));
+}
+
+.dark .dark\:hover\:bg-dim-300:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(32, 46, 58, var(--tw-bg-opacity));
+}
+
+.dark .dark\:hover\:bg-dim-800:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(22, 45, 64, var(--tw-bg-opacity));
+}
+
+.dark .dark\:focus\:bg-dim-900:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgba(21, 32, 43, var(--tw-bg-opacity));
+}
+
 .border-gray-200 {
   --tw-border-opacity: 1;
   border-color: rgba(229, 231, 235, var(--tw-border-opacity));
@@ -629,6 +679,21 @@ video {
 .focus\:border-blue-200:focus {
   --tw-border-opacity: 1;
   border-color: rgba(191, 219, 254, var(--tw-border-opacity));
+}
+
+.dark .dark\:border-gray-700 {
+  --tw-border-opacity: 1;
+  border-color: rgba(55, 65, 81, var(--tw-border-opacity));
+}
+
+.dark .dark\:border-dim-200 {
+  --tw-border-opacity: 1;
+  border-color: rgba(56, 68, 77, var(--tw-border-opacity));
+}
+
+.dark .dark\:border-dim-400 {
+  --tw-border-opacity: 1;
+  border-color: rgba(37, 51, 65, var(--tw-border-opacity));
 }
 
 .rounded {
@@ -1045,6 +1110,16 @@ video {
 .hover\:text-blue-400:hover {
   --tw-text-opacity: 1;
   color: rgba(96, 165, 250, var(--tw-text-opacity));
+}
+
+.dark .dark\:text-white {
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.dark .dark\:text-gray-100 {
+  --tw-text-opacity: 1;
+  color: rgba(243, 244, 246, var(--tw-text-opacity));
 }
 
 .hover\:underline:hover {
