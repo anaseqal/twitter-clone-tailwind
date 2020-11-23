@@ -1,6 +1,6 @@
 module.exports = {
   purge: ["./**/*.{html,vue}"],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: "class", // or 'media' or 'class'
   theme: {
     screens: {
       xs: "614px",

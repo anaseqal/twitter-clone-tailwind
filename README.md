@@ -1,5 +1,5 @@
 # Twitter Clone Tailwind
-Twitter dark (web) clone built using TailwindCSS 2
+Twitter (web) clone built using TailwindCSS 2
 
 ![alt text](https://i.imgur.com/EHNnO2F.png)
 
@@ -13,6 +13,10 @@ Run Development
 
 Run Production
 * `npm run prod`
+
+
+Dark / Light
+* `toggle dark class in html tag: <html class="dark">`
 
 
 ## Contributions
