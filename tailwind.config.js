@@ -10,6 +10,9 @@ module.exports = {
       xl: "1280px",
     },
     extend: {
+      animation: {
+        "spin-fast": "spin 0.7s linear infinite",
+      },
       colors: {
         dim: {
           50: "#5F99F7",
