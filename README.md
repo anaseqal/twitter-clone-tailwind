@@ -1,7 +1,9 @@
 # Twitter Clone Tailwind
 Twitter (web) clone built using TailwindCSS 2
 
-![alt text](https://i.imgur.com/EHNnO2F.png)
+Preview: https://anaseqal.github.io/twitter-clone-tailwind/
+
+![alt text](https://repository-images.githubusercontent.com/315387874/a7ede280-2edc-11eb-924a-a483f6b441a4)
 
 ## Install
 
